@@ -45,63 +45,146 @@ header {
     rgba(0, 0, 0, 0) 100%
   );
 }
-.container{
-    max-width: 1073px;
-    margin: 0 auto;
+.container {
+  max-width: 1073px;
+  margin: 0 auto;
 }
-.main-navigation{
-    display: flex;
-    align-items: center;
+.main-navigation {
+  display: flex;
+  align-items: center;
 }
-.main-navigation ul{
-    list-style: none;
-    display: flex;
-    gap: 28px;
-    align-items: center;
-    margin: 0;
+.main-navigation ul {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+  align-items: center;
+  margin: 0;
 }
-.main-navigationli{
-    position: relative;
+.main-navigationli {
+  position: relative;
 }
-.main-navigation a{
-    color: #fff;
-    display: block;
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: 700;
-    font-family: Helvetica, sans-serif;
-    border-bottom: solid 3px transparent;
+.main-navigation a {
+  color: #fff;
+  display: block;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 700;
+  font-family: Helvetica, sans-serif;
+  border-bottom: solid 3px transparent;
 }
 .main-navigation a:hover,
 .main-navigation a:focus {
-    border-color: #e7a200;
+  border-color: #e7a200;
 }
-.site-header-main{
-    display: flex;
-    justify-content: space-between;
-    height: 125px;
+.site-header-main {
+  display: flex;
+  justify-content: space-between;
+  height: 125px;
 }
-.sec-menu{
-    display: flex;
-    align-items: center;
-    gap: 15px;
+.sec-menu {
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 .sec-menu ion-icon {
-    font-size: 25px;
+  font-size: 25px;
 }
-#btnZap{
-    background: #e7a200;
-    border-radius: 65px;
-    padding: 3px 15px;
-    font-size: 20px;
+#btnZap {
+  background: #e7a200;
+  border-radius: 65px;
+  padding: 3px 15px;
+  font-size: 20px;
 
-    display: flex;
-    align-items: center;
-    gap: 7px;
+  display: flex;
+  align-items: center;
+  gap: 7px;
 }
 
 .Zap {
   text-decoration: none;
-  color:#fff;
-  
+  color: #fff;
 }
+
+.ifood {
+  position: fixed;
+  right: 0;
+  top: 200px;
+  box-shadow: -10px 10px 13px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: -10px 10px 13px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: -10px 10px 13px 0px rgba(0, 0, 0, 0.75);
+}
+
+#BoasVindas {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  padding-bottom: 15px;
+  background: #f6f6f6;
+}
+#BoasVindas img {
+  padding: 0 100px;
+}
+#TextoBoasVindas {
+  max-width: 600px;
+  padding-right: 100px;
+}
+
+#TextoBoasVindas h4 {
+  text-transform: uppercase;
+  font-size: 16px;
+  margin: 0;
+  padding-top: 35px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+#TextoBoasVindas h3 {
+  text-transform: uppercase;
+  font-weight: 900;
+  color: #e7a200;
+  font-size: 23px;
+  margin-bottom: 0;
+}
+
+#TextoBoasVindas p {
+  margin-bottom: 0;
+}
+
+#Cardapio{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#Cardapio img{
+  padding: 36px 0;
+}
+#Cardapio div img {
+  padding: 0;
+}
+
+#Cardapio h2{
+  color: #d03012;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 900;
+  margin: 0 0 7px;
+}
+.btnCardapio{
+  text-decoration: none;
+  color: #fff;
+  background: #8daa3e;
+  padding: 10px 20px;
+  border-radius: 50px;
+  border-bottom: 2px solid #6b7552;
+}
+
+#PromoPizzas{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 20px;
+}
+
