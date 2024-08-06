@@ -281,8 +281,8 @@ header {
 }
 
 .forms input[type="submit"] {
-  background: #770000;
-  border-color: #770000;
+  background: #941d1d;
+  border-color: #981f1f;
   width: 155px;
   border-radius: 50px;
   color: #fff;
