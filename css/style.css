@@ -74,7 +74,7 @@ header {
 }
 .main-navigation a:hover,
 .main-navigation a:focus {
-  border-color: #e7a200;
+  border-color: #770000;
 }
 .site-header-main {
   display: flex;
@@ -90,7 +90,7 @@ header {
   font-size: 25px;
 }
 #btnZap {
-  background: #e7a200;
+  background: #770000;
   border-radius: 65px;
   padding: 3px 15px;
   font-size: 20px;
@@ -141,7 +141,7 @@ header {
 #TextoBoasVindas h3 {
   text-transform: uppercase;
   font-weight: 900;
-  color: #e7a200;
+  color: #770000;
   font-size: 23px;
   margin-bottom: 0;
 }
@@ -164,7 +164,7 @@ header {
 }
 
 #Cardapio h2 {
-  color: #d03012;
+  color: #770000;
   text-transform: uppercase;
   font-size: 28px;
   font-weight: 900;
@@ -173,7 +173,7 @@ header {
 .btnCardapio {
   text-decoration: none;
   color: #fff;
-  background: #8daa3e;
+  background: #98834e;
   padding: 10px 20px;
   border-radius: 50px;
   border-bottom: 2px solid #6b7552;
@@ -201,28 +201,28 @@ header {
 }
 #Delivery h1 {
   text-transform: uppercase;
-  color: #bf0a26;
+  color: #71343d;
   font-weight: 900;
 }
 
-#Delivery .sec-menu{
+#Delivery .sec-menu {
   justify-content: center;
   padding: 40px;
 }
 
-#Icone{
+#Icone {
   display: flex;
   justify-content: center;
   gap: 70px;
   margin: 20px 0;
 }
 
-.itens{
+.itens {
   max-width: 250px;
   text-align: center;
 }
 
-#Contato iframe{
+#Contato iframe {
   position: absolute;
 }
 
@@ -231,7 +231,7 @@ header {
   justify-content: center;
 }
 
-.forms{
+.forms {
   z-index: 2;
   width: 530px;
   max-width: 100%;
@@ -243,8 +243,8 @@ header {
   text-transform: uppercase;
 }
 
-.forms h2{
-  color: #e7a200;
+.forms h2 {
+  color: #770000;
   font-size: 28px;
   line-height: 80px;
   margin: 0;
@@ -280,9 +280,9 @@ header {
   align-items: center;
 }
 
-.forms input[type="submit"]{
-  background: #e7a200;
-  border-color: #e7a200;
+.forms input[type="submit"] {
+  background: #770000;
+  border-color: #770000;
   width: 155px;
   border-radius: 50px;
   color: #fff;
@@ -291,7 +291,7 @@ header {
 }
 
 footer {
-  background: #e7a200;
+  background: #770000;
   min-height: 400px;
   margin-top: -281px;
   color: #fff;
@@ -300,29 +300,24 @@ footer {
   justify-content: space-evenly;
 }
 
-
 footer #dados {
   display: flex;
   margin: 0 14%;
   justify-content: space-between;
 }
 
-
 #dados p,
 #dados h4 {
   margin: 0;
 }
 
-
 #dados h4 {
   margin-top: 10px;
 }
 
-
 footer #dados:first-child {
   margin-left: 20%;
 }
-
 
 #copyright {
   text-align: center;
